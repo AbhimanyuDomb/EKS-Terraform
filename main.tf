@@ -1,5 +1,5 @@
-u-westprovider "aws" {
-  region = "ap-south-1"
+provider "aws" {
+  region = "eu-west-1"
 }
 
 resource "aws_vpc" "devopsshack_vpc" {
